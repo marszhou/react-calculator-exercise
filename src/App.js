@@ -1,10 +1,12 @@
 import React from 'react'
 import './App.css'
-import Calculator from './Calculator'
+import Calculator from './Calculator/Calculator'
 
 function App() {
   return (
-    <Calculator />
+    <div>
+      <Calculator />
+    </div>
   )
 }
 
